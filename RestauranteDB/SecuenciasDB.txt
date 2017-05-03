@@ -1,0 +1,5 @@
+CREATE TABLE menu (cod INT NOT NULL, nombre VARCHAR(50) NOT NULL, precio VARCHAR(50) NOT NULL, `tiempoPreparacion` INT NOT NULL, foto BLOB, categoria VARCHAR(10), calificacion INT, descripcion VARCHAR(100), PRIMARY KEY (cod));
+CREATE TABLE mesa (cod VARCHAR(10) NOT NULL, mesero VARCHAR(10), capacidad INT NOT NULL, estado VARCHAR(10) NOT NULL, sede VARCHAR(10) NOT NULL, PRIMARY KEY (cod, sede));
+CREATE TABLE mesero (cedula INT NOT NULL, nombre VARCHAR(50) NOT NULL, correo VARCHAR(50) NOT NULL, telefono VARCHAR(7) NOT NULL, salario INT NOT NULL, `calificación` INT, foto BLOB, PRIMARY KEY (cedula));
+CREATE TABLE sede (cod VARCHAR(10) NOT NULL, nombre VARCHAR(10) NOT NULL, `dirección` VARCHAR(10) NOT NULL, telefono VARCHAR(8) NOT NULL, PRIMARY KEY (cod));
+CREATE TABLE usuario (cedula INT NOT NULL, nombre VARCHAR(50) NOT NULL, correo VARCHAR(50) NOT NULL, telefono VARCHAR(7) NOT NULL, clave VARCHAR(50) NOT NULL, PRIMARY KEY (cedula));

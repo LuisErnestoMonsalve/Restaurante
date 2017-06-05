@@ -40,6 +40,7 @@
             <td>${u.nombre}</td> 
             <td>${u.correo}</td> 
             <td>${u.telefono}</td>
+            <td> <a onclick="return confirm('Esta seguro?')" class="btn btn-small btn-danger" href=" UsuarioServlet?action=delete&cedula=${u.cedula}" >Borrar</a></td>
             </tr>
         </c:forEach>        
         </table>

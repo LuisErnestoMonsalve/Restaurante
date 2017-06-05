@@ -25,6 +25,10 @@
         <servlet-name>MesaServlet</servlet-name>
         <servlet-class>com.udea.servlet.MesaServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>SedeServlet</servlet-name>
+        <servlet-class>com.udea.servlet.SedeServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Faces Servlet</servlet-name>
         <url-pattern>/faces/*</url-pattern>
@@ -44,6 +48,10 @@
     <servlet-mapping>
         <servlet-name>MesaServlet</servlet-name>
         <url-pattern>/MesaServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SedeServlet</servlet-name>
+        <url-pattern>/SedeServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

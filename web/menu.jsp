@@ -26,6 +26,7 @@
 				<li><a href="index.jsp" class="smoothScroll">Inicio</a></li>
                                 <li><a href="login.jsp" class="smoothScroll">Iniciar Sesión</a></li>
                                 <li><a href="newAccount.jsp" class="smoothScroll">Registrarse</a></li>
+                               
 				
 			</ul>
 		</div>
@@ -53,6 +54,7 @@
                                 <li><a href="UsuarioServlet?action=list" class="smoothScroll">Clientes</a></li>
 				<li><a href="#contact" class="smoothScroll">Contactenos</a></li>
                                 <li><a href="UsuarioServlet?action=logout" class="smoothScroll">Cerrar Sesión</a></li>
+                                <li><a href="SedeServlet?action=list" class="smoothScroll">Sedes</a></li>
 			</ul>
 		</div>
 	</div>
